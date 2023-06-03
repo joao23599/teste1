@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+  }
+
+
+nav h3 {
+  margin-left: -330px;  
+}
+
+
+.nav_list .inicio li input[type="submit"]{
+  border: none; 
+  color: #ffffff;
+  background-color: #3e4095;
+  cursor: pointer;
+}
+
+.nav_list .sobre li input[type="submit"]{
+  border: none; 
+  color: #ffffff;
+  background-color: #3e4095;
+  cursor: pointer;
+}
+
+.nav_list .contato li input[type="submit"]{
+  border: none; 
+  color: #ffffff;
+  background-color: #3e4095;
+  cursor: pointer;
+}
+
+
+
+nav {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center; 
+  color: #ffffff;
+  background-color: #3e4095; 
+  height: 9.5vh; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; 
+}
+.nav_list {
+  list-style: none; 
+  display: flex; 
+
+}
+
+.nav_list li {
+  letter-spacing: 3px; 
+  margin-left: 85px; 
+}
+
+
+.galeriaRedonda {
+  margin-top: 110px; 
+  margin-left: 178px; 
+}
+
+.galeriaRedonda img {
+  border-radius: 50%; 
+  padding: 11px; 
+}
+
+
+
+/* Parágrafos abaixo das imagens redondas... */
+.img_01 {
+  color: rgb(76, 87, 108);
+  font-size: 14px; 
+  margin-top: -5px; 
+  margin-left: 220px;
+
+}
+
+.img_02 {
+  color: rgb(76, 87, 108);
+  font-size: 14px; 
+  text-align: center; 
+  margin-top: -37px; 
+  margin-left: -555px;
+}
+
+.img_03 {
+  color: rgb(76, 87, 108);
+  font-size: 14px; 
+  text-align: center; 
+  margin-top: -55px; 
+  margin-left: -265px;
+}
+
+.img_04 {
+  color: rgb(76, 87, 108);
+  font-size: 14px; 
+  text-align: center; 
+  margin-top: -38px; 
+  margin-left: 19px;
+}
+
+.img_05 {
+  color: rgb(76, 87, 108);
+  font-size: 14px; 
+  text-align: center; 
+  margin-top: -34px; 
+  margin-left: 300px;
+}
+
+.img_06 {
+  color: rgb(76, 87, 108);
+  font-size: 14px; 
+  text-align: center; 
+  margin-top: -37px; 
+  margin-left: 575px;
+}
+
+.img_07 {
+  color: rgb(76, 87, 108);
+  font-size: 14px; 
+  text-align: center; 
+  margin-top: -35px; 
+  margin-left: 865px;
+}
+
+
+
+
+h1 {
+  margin-top: 90px; 
+  margin-left: 188px; 
+}
+
+
+h2 {
+  margin-top: -9px; 
+  margin-left: 840px; 
+}
+
+
+
+
+.galeria {
+  margin-top: 60px; 
+  margin-left: 194px;
+  position: relative; 
+  overflow: hiden; 
+}
+
+.foto {
+  border-radius: 5px; 
+  position: absolute;
+  opacity: 0;
+  animation-name: animacao;
+  animation-duration: 20s; 
+  animation-iteration-count: infinite; 
+}
+
+
+
+
+@keyframes animacao {
+  25%{
+    opacity: 1; 
+   
+  }
+
+  50%{
+    opacity: 0; 
+  }
+}
+
+.foto:nth-child(1){
+   
+}
+
+.foto:nth-child(2){
+  animation-delay: 5s;
+}
+
+.foto:nth-child(3){
+  animation-delay: 10s; 
+}
+
+.foto:nth-child(4){
+  animation-delay: 15s;
+}
+
+
+
+
+
+.icone_bilhete {
+
+  margin-left: 938px; 
+}
+
+.botao_ver_detalhes input[type="submit"] {
+  background: #ffffff; 
+  text-transform: capitalize;
+  font-size: 20px;
+  border: 1px solid #3e4095;
+  padding:10px 15px;
+  border-radius:5px;
+  margin-top: 20px;
+  margin-left: 907px; 
+  cursor: pointer;
+
+}
+
+.botao_ver_detalhes input[type="submit"]:hover {
+  background: #3e4095;
+  color:#fff;
+}
+

@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+   font-family: 'Poppins', sans-serif;
+} 
+
+
+.logo {
+  margin-left: 10px; 
+}
+
+nav h3 {
+  margin-left: -440px;  
+}
+
+nav {
+  display: flex; 
+  justify-content: space-around;
+  align-items: center; 
+  color: #ffffff;
+  background-color: #3e4095; 
+  height: 9.5vh; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; 
+}
+.nav_list {
+  list-style: none; 
+  display: flex; 
+
+}
+
+.nav_list li {
+  letter-spacing: 3px; 
+  margin-left: 85px; 
+}
+
+.img_perfil .icone_perfil { 
+  margin-top: 8px; 
+  margin-left: 20px; 
+  width: 40px;
+}
+
+.nome_perfil .nome_perfil {
+  color: #ffffff;
+  margin-left: 5px; 
+}
+
+
+.img_sair .icone_sair {
+  width: 20px;
+  margin-top: 18px; 
+  margin-left: 17px; 
+}
+
+.ola {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 85px;
+}
+
+.apresentacao .texto{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -12px; 
+}
+
+
+.card_01 {
+  margin-top: 1px; 
+  background-color: #fff; 
+  box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); 
+  width: 300px; 
+  height: 400px; 
+  border-radius: 7px; 
+}
+
+.card_01 img {
+  margin-top: 15px; 
+}
+
+.data_evento01 {
+  margin-top: -2px;
+  margin-left: 14px; 
+  color:#3e4095;
+  font-size: 14px; 
+}
+
+.nome_evento01 {
+  margin-top: -4px; 
+  margin-left: 14px; 
+}
+
+.local_evento01 {
+  margin-top: -6px; 
+  margin-left: 14px; 
+  color:grey;
+  font-size: 13px; 
+}
+
+.card_02 {
+  margin-top: -400px; 
+  margin-left: 343px; 
+  background-color: #fff; 
+  box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); 
+  width: 300px; 
+  height: 400px; 
+  border-radius: 7px; 
+}
+
+.card_02 img {
+  margin-top: 15px; 
+}
+
+.data_evento02 {
+  margin-top: -2px;
+  margin-left: 14px; 
+  color:#3e4095;
+  font-size: 14px; 
+}
+
+.nome_evento02 {
+  margin-top: -4px; 
+  margin-left: 14px; 
+}
+
+.local_evento02 {
+  margin-top: -6px; 
+  margin-left: 14px; 
+  color:grey;
+  font-size: 13px; 
+}
+
+
+.card_03 {
+  margin-top: -400px; 
+  margin-left: 693px; 
+  background-color: #fff; 
+  box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); 
+  width: 300px; 
+  height: 400px; 
+  border-radius: 7px; 
+}
+
+.card_03 img {
+  margin-top: 15px; 
+}
+
+.data_evento03 {
+  margin-top: -2px;
+  margin-left: 14px; 
+  color:#3e4095;
+  font-size: 14px; 
+}
+
+.nome_evento03 {
+  margin-top: -4px; 
+  margin-left: 14px; 
+}
+
+.local_evento03 {
+  margin-top: -6px; 
+  margin-left: 14px; 
+  color:grey;
+  font-size: 13px; 
+}
+
+.card_04 {
+  margin-top: -400px; 
+  margin-left: 1045px; 
+  background-color: #fff; 
+  box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); 
+  width: 300px; 
+  height: 400px; 
+  border-radius: 7px; 
+}
+
+.card_04 img {
+  margin-top: 15px; 
+}
+
+.data_evento04 {
+  margin-top: -2px;
+  margin-left: 14px; 
+  color:#3e4095;
+  font-size: 14px; 
+}
+
+.nome_evento04 {
+  margin-top: -4px; 
+  margin-left: 14px; 
+}
+
+.local_evento04 {
+  margin-top: -6px; 
+  margin-left: 14px; 
+  color:grey;
+  font-size: 13px; 
+}
+
+
+.card_01 .botao_evento01 {
+  background: #ffffff; 
+  text-transform: capitalize;
+  font-size: 13px;
+  border: 1px solid #3e4095;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.card_01 .botao_evento01:hover {
+  background: #3e4095;
+  color:#fff;
+}
+
+
+.card_02 .botao_evento02 {
+  background: #ffffff; 
+  text-transform: capitalize;
+  font-size: 13px;
+  border: 1px solid #3e4095;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.card_02 .botao_evento02:hover {
+  background: #3e4095;
+  color:#fff;
+}
+
+
+.card_03 .botao_evento03 {
+  background: #ffffff; 
+  text-transform: capitalize;
+  font-size: 13px;
+  border: 1px solid #3e4095;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.card_03 .botao_evento03:hover {
+  background: #3e4095;
+  color:#fff;
+}
+
+.card_04 .botao_evento04 {
+ 
+  margin-top: -1px; 
+  background: #ffffff; 
+  text-transform: capitalize;
+  font-size: 13px;
+  border: 1px solid #3e4095;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.card_04 .botao_evento04:hover {
+  background: #3e4095;
+  color:#fff;
+}
+
+
+
+
+/* ESTILIZANDO O POP UP.. */
+
+
+
+.modal-container {
+  margin-left: 285px; 
+  width: 60vw;
+  position: fixed;
+  top: 35px;
+  display: none;
+  z-index: 999;
+  justify-content: center;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px #eee solid;
+  width: 50%;
+}
+
+.active {
+  display: flex;
+}
+
+.active .modal {
+  animation: modal .4s;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+span {
+
+  margin: 5px auto;
+
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btns button {
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btnOK {
+ background-color:  #3e4095;
+}
+
+.btnClose {
+  background-color: crimson;
+ }
+
+ @media (max-width: 500px) {
+  .modal {
+    padding: 10px;
+    width: 80%;
+  }   
+
+  span, .btns button {
+    font-size: smaller;
+  }
+ }
+

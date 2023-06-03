@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+
+*{
+   font-family: 'Poppins', sans-serif;
+} 
+
+.logo {
+  margin-left: 10px; 
+}
+
+nav h3 {
+  margin-left: -440px;  
+}
+
+
+nav {
+   display: flex; 
+  justify-content: space-around;
+  align-items: center; 
+  color: #ffffff;
+  background-color: #3e4095; 
+  height: 9.5vh; 
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%; 
+}
+.nav_list {
+  list-style: none; 
+  display: flex; 
+
+}
+
+.nav_list li {
+  letter-spacing: 3px; 
+  margin-left: 85px; 
+}
+
+.img_perfil .icone_perfil { 
+  margin-top: 8px; 
+  margin-left: 20px; 
+  width: 40px;
+}
+
+.nome_perfil .nome_perfil {
+  color: #ffffff;
+  margin-left: 5px; 
+}
+
+
+.img_sair .icone_sair {
+  width: 20px;
+  margin-top: 18px; 
+  margin-left: 17px; 
+}
+
+
+
+
+body {
+    background-image: url("../img/background.jpg"); 
+    background-repeat:  no-repeat;
+    background-size: 1400px; 
+}
+
+
+
+h1 {
+
+  margin-left: 273px; 
+  font-size: 55px;
+  font-family: serif;
+  margin-top: 120px;
+  padding: 25px 0;
+  color: #fff;
+  text-shadow: 2px 2px 3px black;
+}
+
+
+.card {
+  margin-top: -3335px; 
+  position: fixed;
+  width: 200px;
+  height: 300px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-front {
+  position: fixed;
+  margin-top: -50px; 
+  margin-left: 30px; 
+  background-color: #3e4095; 
+  box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); 
+  width: 300px; 
+  height: 400px; 
+  border-radius: 7px; 
+}
+
+.card-front img {
+  margin-top: 15px; 
+}
+
+.data_evento01 {
+  margin-top: -2px;
+  margin-left: 14px; 
+  color:#fff;
+  font-size: 14px; 
+}
+
+.nome_evento01 {
+  margin-top: -4px; 
+  margin-left: 64px; 
+  color:#fff;
+}
+
+.local_evento01 {
+  margin-top: -6px; 
+  margin-left: 14px; 
+  color:#fff;
+  font-size: 13px; 
+}
+
+/* lalalalalallalalalallalalalalalalalalalalalalalalalal */
+
+
+.card-back {
+  position: fixed;
+  margin-top: -50px; 
+  margin-left: -130px; 
+  background-color: #3e4095; 
+  box-shadow: 10px 10px 10px 10px rgba(0.1, 0.1, 0.1, 0.1); 
+  width: 300px; 
+  height: 400px; 
+  border-radius: 7px; 
+  transform: rotateY(180deg);
+}
+
+.card-front .botao_evento01 {
+  background: #3e4095; 
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 13px;
+  border: 1px solid #fff;
+  padding:10px 15px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+.card-front .botao_evento01:hover {
+   background: #fff;
+  color:#000;
+}
+
+.card-back .img_card_02 {
+  width: 150px;
+  margin-left: 75px;
+  margin-top: 55px;
+}
+
+
+#card_grande{
+  
+  margin-left: 355px;
+  margin-top:90px;
+  width: 910px;
+  height: 3240px;
+  background-color: #fff;
+  border: 1px solid #d3d3d3;
+  border-radius: 8px;
+  padding: 23px;
+
+ }
+
+ #card_grande p{
+  color: #696969;
+ }
+
+.icone_voltar_card {
+  width: 40px; 
+  margin-top: 40px; 
+  margin-left: 23px; 
+ }
+
+
+
+ .modal-container {
+   
+  width: 70vw;
+  position: fixed;
+  top: 35px;
+  display: none;
+  z-index: 999;
+  justify-content: center;
+}
+
+.modal {
+  margin-left: 390px; 
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px #eee solid;
+  width: 50%;
+}
+
+.active {
+  display: flex;
+}
+
+.active .modal {
+  animation: modal .4s;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+span {
+
+  margin: 5px auto;
+
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btns button {
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.btnOK {
+ background-color:  #3e4095;
+}
+
+.btnClose {
+  background-color: crimson;
+ }
+
+ @media (max-width: 500px) {
+  .modal {
+    padding: 10px;
+    width: 80%;
+  }   
+
+  span, .btns button {
+    font-size: smaller;
+  }
+ }
